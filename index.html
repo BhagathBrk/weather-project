@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <link rel="stylesheet" href="./style.css">
+
+         <!-- Gfonts: font-family: "IBM Plex Sans", sans-serif;-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+        <!-- fontAwesome -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+         <!-- favIcon -->
+         <link rel="icon" type="image/x-icon" href="./images/favicon.ico" >
+
+</head>
+<body>
+    <!-- country name, humidity, temperature, time, place, main, pressure, feelslike, windspeed -->
+     <!-- weather api - current weather - req by city name ° -->
+
+    <div class="container">
+        
+        <div class="d-flex justify-content-center mt-5 pt-5">
+            <input id="inp" type="text" placeholder="enter city name" class="form-control" style="width: 200px;">
+            <button class="btn btn-info" onclick="search()">Search</button>
+         </div>
+         <h2 class="text-center mt-5">Enter city Name to get Weather details.</h2>
+
+      
+        
+        <div id="result">
+            
+
+        </div>
+</body>
+<script src="./script.js"></script>
+</html>
